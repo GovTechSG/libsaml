@@ -16,8 +16,8 @@ Gem::Specification.new do |s|
 
   s.files = Dir["{lib}/**/*"] + ["MIT-LICENSE", "Rakefile", "README.md"]
 
-  s.add_dependency "activesupport", ">= 3.2.15"
-  s.add_dependency "activemodel", ">= 3.0.0"
+  s.add_dependency "activesupport", '>= 4'
+  s.add_dependency "activemodel", '>= 4'
   s.add_dependency "xmlmapper", '~> 0.7.0'
   s.add_dependency 'nokogiri', '~> 1.6', '>= 1.6.8'
   s.add_dependency "xmldsig", '~> 0.4.0'
